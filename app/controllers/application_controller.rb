@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def rainbow
     render text: "hello rainboy!"
   end
+  
+  def korny
+    render text: "Korny is gay."
+  end
 end
